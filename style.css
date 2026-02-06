@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+
+/* RESET */
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:"Barlow", sans-serif;
+    background:#f8f8f8;
+    color:#222;
+}
+
+/* HEADER */
+
+.header{
+    text-align:center;
+    background:white;
+    padding:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header img{
+    width:180px;
+}
+
+/* MENU */
+
+.menu-links{
+    list-style:none;
+    padding:0;
+    margin-top:10px;
+    
+}
+
+.menu-links li{
+    display:inline-block;
+    
+}
+
+.menu-links a{
+    padding:10px 20px;
+    font-weight:600;
+    color: #222;
+}
+
+.menu-links a:hover{
+    color:#e63946;
+}
+
+/* BANNER */
+
+.banner{
+    padding:40px;
+    text-align:center;
+    background:linear-gradient(white,#ffe5e5);
+}
+
+
+
+.banner h2{
+    font-size:22px;
+    color:#e63946;
+}
+
+.banner p{
+    margin-top:10px;
+}
+
+.destaque{
+    font-weight:600;
+    color:#444;
+}
+
+/* BOTÃO */
+
+.botao{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 28px;
+    background:#e63946;
+    color:white;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+
+
+/* IMAGEM */
+
+.banner img{
+    width:280px;
+    margin-top:20px;
+}
+
+/* CARDÁPIO */
+
+.cardapio{
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+}
+
+.cardapio h2{
+    text-align:center;
+    font-size:32px;
+}
+
+.subtitulo{
+    text-align:center;
+    color:#777;
+}
+
+.cardapio-categoria{
+    margin-top:40px;
+    color:#e63946;
+}
+
+/* ITEM */
+
+.cardapio-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    padding:15px;
+    margin-top:10px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.1);
+    transition:0.2s;
+}
+
+
+
+.cardapio-nome{
+    margin:0;
+}
+
+.cardapio-descricao{
+    font-size:14px;
+    color:#666;
+}
+
+.cardapio-preco{
+    font-weight:bold;
+    color:#e63946;
+    font-size:18px;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.direitos{
+    margin-top:15px;
+    font-size:14px;
+    color:#aaa;
+}
+
+/* WHATSAPP */
+
+.link-whatsapp img{
+    width:60px;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+}
+
+/* DESKTOP */
+
+@media(min-width:768px){
+
+    .coluna{
+        width:45%;
+        display:inline-block;
+        vertical-align:middle;
+    }
+
+}
